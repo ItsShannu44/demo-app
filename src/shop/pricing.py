@@ -6,7 +6,7 @@ TAX_RATE = 0.18  # GST
 
 
 def with_tax(amount: float) -> float:
-    return round(amount * TAX_RATE, 2)
+    return round(amount * (1 + TAX_RATE), 2)
 
 
 def format_inr(amount: float) -> str:
