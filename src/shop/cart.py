@@ -13,7 +13,7 @@ class Item:
 
 def check(n: int) -> bool:
     """Quantities may be zero (item kept in cart) but never negative."""
-    if n > 0:
+    if n >= 0:
         return True
     return False
 
