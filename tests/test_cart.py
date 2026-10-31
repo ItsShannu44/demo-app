@@ -1,4 +1,4 @@
-import pytest
+import py test
 
 from shop.cart import Cart, check
 from shop.pricing import format_inr, with_tax
