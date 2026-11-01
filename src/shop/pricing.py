@@ -1,8 +1,6 @@
 """Price helpers."""
 from __future__ import annotations
 
-import os
-
 TAX_RATE = 0.18  # GST
 
 
